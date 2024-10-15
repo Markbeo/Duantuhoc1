@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BÀi 14</title>
+  </head>
+  <!-- Chú ý: ./ để mở ra đường dẫn tương đối
+   Cứ mỗi lần thêm 1 dấu chấm sẽ mở ra thư mục cấp trên thư mục trước
+   VD: ../ sẽ là thư mục cha của thư mục ./
+   - Cách mở đường dẫn tuyệt đối: dùng dấu xược /, nếu dùng đường dẫn tuyệt đối dù có di chuyển file cũng không ảnh hưởng tới kết quả đã go live
+    -->
+
+  <body>
+    <p>Đường dẫn tương đối</p>
+    <img src="./baby.jpg" alt="Ảnh một em bé" />
+    <p>Đường dẫn tương đối</p>
+    <img src="./img/girl.jpg" alt="Ảnh một cô bé" />
+    <p>Đường dẫn tương đối cách 2</p>
+    <img src="baby.jpg" alt="Ảnh một em bé" />
+    <p>trở về thư mục trên 1 cấp</p>
+    <img src="../boy.jpg" alt="Ảnh bé trai" />
+    <p>Đường dẫn tuyệt đối</p>
+    <img src="/project1/img/girl.jpg" alt="" />
+  </body>
+</html>
